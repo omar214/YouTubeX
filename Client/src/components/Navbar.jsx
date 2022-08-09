@@ -60,7 +60,7 @@ const Navbar = () => {
           />
           <SearchOutlinedIcon
             // onClick={handleSearch}
-            onCLick={() => handleOpenSidebar()}
+            onClick={() => handleOpenSidebar()}
           />
         </Search>
         {!currentUser ? (

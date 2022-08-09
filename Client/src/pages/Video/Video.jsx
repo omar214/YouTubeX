@@ -117,7 +117,7 @@ const Video = () => {
   const handleDislike = async (e) => {
     e.preventDefault();
     console.log(
-      currentUser?.subscripedChannels?.includes(currentVideo.userId._id)
+      currentUser?.subscripedChannels?.includes(currentVideo?.userId._id)
     );
 
     !currentUser && navigate("/signin");
@@ -145,13 +145,13 @@ const Video = () => {
     e.preventDefault();
     !currentUser && navigate("/signin");
     try {
-      dispatch(userSubscribeChannel(currentVideo.userId._id));
+      dispatch(userSubscribeChannel(currentVideo?.userId._id));
       dispatch(
         subscribeChannel(
-          currentUser.subscripedChannels.includes(currentVideo.userId._id)
+          currentUser.subscripedChannels.includes(currentVideo?.userId._id)
         )
       );
-      await API.put(`users/subscribe/${currentVideo.userId._id}`);
+      await API.put(`users/subscribe/${currentVideo?.userId._id}`);
     } catch (error) {
       console.log(error);
     }
@@ -169,7 +169,7 @@ const Video = () => {
             <VideoWrapper>
               {/* <video src="/videos/1.mp4" controls style={{ width: "100%" }} /> */}
               <video
-                src={currentVideo.videoUrl}
+                src={currentVideo?.videoUrl}
                 controls
                 autoPlay
                 style={{ width: "100%", height: "100%", outline: "none" }}
@@ -188,7 +188,7 @@ const Video = () => {
               </Info>
               <Buttons>
                 <Button onClick={handleLike}>
-                  {currentUser?.likedVideos?.includes(currentVideo._id) ? (
+                  {currentUser?.likedVideos?.includes(currentVideo?._id) ? (
                     <ThumbUpIcon />
                   ) : (
                     <ThumbUpOutlinedIcon />
@@ -196,7 +196,7 @@ const Video = () => {
                   {currentVideo?.likes || 0}
                 </Button>
                 <Button onClick={handleDislike}>
-                  {currentUser.dislikedVideos.includes(currentVideo._id) ? (
+                  {currentUser.dislikedVideos.includes(currentVideo?._id) ? (
                     <ThumbDownIcon />
                   ) : (
                     <ThumbDownOffAltOutlinedIcon />
@@ -207,7 +207,7 @@ const Video = () => {
                   <ReplyOutlinedIcon /> Share
                 </Button>
                 <Button onClick={handleSave}>
-                  {currentUser.savedVideos.includes(currentVideo._id) ? (
+                  {currentUser.savedVideos.includes(currentVideo?._id) ? (
                     <LibraryAddIcon />
                   ) : (
                     <LibraryAddOutlinedIcon />
@@ -223,7 +223,7 @@ const Video = () => {
                 <Image
                   src={
                     currentVideo?.userId?.img
-                      ? currentVideo.userId.img
+                      ? currentVideo?.userId.img
                       : userAvatar
                   }
                   alt="avatar"
@@ -238,7 +238,7 @@ const Video = () => {
               </ChannelInfo>
               <Subscribe onClick={handleSubscribe}>
                 {currentUser?.subscripedChannels?.includes(
-                  currentVideo.userId._id
+                  currentVideo?.userId?._id
                 )
                   ? "UN SUBSCRIBE"
                   : "SUBSCRIBE"}
@@ -253,7 +253,7 @@ const Video = () => {
       <Recommendation>
         {recommends &&
           recommends.map((item) => {
-            return <Card type="sm" key={item._id} video={item} />;
+            return <Card type="sm" key={item?._id} video={item} />;
           })}
       </Recommendation>
     </Container>
