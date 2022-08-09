@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const Wrapper = styled.div`
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   align-items: center;
   gap: 8rem;
   height: 100%;

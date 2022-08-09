@@ -61,6 +61,7 @@ export const Item = styled.div`
   padding: 7.5px 0px;
 
   background-color: ${(props) => props.current && props.theme.soft};
+  color: ${(props) => props.current && 'red'};
   &:hover {
     background-color: ${({ theme }) => theme.soft};
     color: red;
