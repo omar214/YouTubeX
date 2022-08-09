@@ -5,16 +5,20 @@
 ## 📝 Table of Contents
 
 - [About](#about)
-- [Getting Started](#start)
-- [How to play](#play)
-- [Built Using](#build)
-- [Demo and Screenshots](#demo)
+- [features](#features)
+- [Technologies used](#build)
+- [getting started](#start)
+- [Demo](#demo)
+- [screenshots](#screenshots)
 
-### 📙About<a name = "about"></a>
+### 🚩About<a name = "about"></a>
 
-🚩 YouTube-Clone is a clone of YouTube. It is a simple, yet powerful, application that allows you to watch videos and share them with your friends. It is built using the [React](https://reactjs.org/) framework.
+  YouTube-Clone is a clone of YouTube. It is a simple, yet powerful, application that allows you to watch videos and share them with your friends. It is built using the [React](https://reactjs.org/) framework.
 
-it`s a full mimic of YouTube with the following features:
+it`s a full mimic of YouTube with most of its features. 
+
+
+### ✨ Features <a name = "features"></a>
 
 - Authenticate users using json web tokens
 - upload videos & thumbnails to cloud storage
@@ -82,7 +86,7 @@ https://user-images.githubusercontent.com/60351557/172169848-192f95a5-a64d-481b-
 
 </div>
 
-### Screen Shoots
+## 🎥 screenshots<a name = "screenshots"></a>
 
 - Sign up
   ![Sign up](./screenshots/1.png)
