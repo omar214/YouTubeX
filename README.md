@@ -25,6 +25,7 @@ it`s a full mimic of YouTube with most of its features.
 - like / dislike videos
 - save videos to watch later
 - subscribe to channels && view their videos
+- search for video
 - Show trending videos based on the most viewed videos
 - history of videos watched by the user
 - add comments to videos && could delete them
