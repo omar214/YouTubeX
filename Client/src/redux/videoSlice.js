@@ -23,19 +23,6 @@ export const videoSlice = createSlice({
       // return ;
       state.loading = false;
       state.currentVideo = action.payload.currentVideo;
-      const { currentUser } = action.payload;
-      // console.log(currentUser);
-      // // if (currentUser?.likedVideos?.includes(state.currentVideo._id))
-      // if (currentUser?.likedVideos?.includes(action.payload.currentVideo._id))
-      //   state.isLiked = true;
-      // if (currentUser?.dislikedVideos?.includes(state.currentVideo._id))
-      //   state.isDisliked = true;
-      // if (currentUser?.savedVideos?.includes(state.currentVideo._id))
-      //   state.isSaved = true;
-      // if (currentUser?.subscribedChannels?.includes(state.currentVideo.userId._id))
-      //   state.isSubscriped = true;
-
-      // console.log({...state});
     },
     fetchVideoFailure: (state) => {
       state = { ...initialState, error: true };
