@@ -36,6 +36,7 @@ it`s a full mimic of YouTube with most of its features.
 #### Frontend
 
 - React
+- React-Router dom
 - Redux Toolkit
 - Redux Persist
 - styled-components
@@ -51,26 +52,28 @@ it`s a full mimic of YouTube with most of its features.
 
 ## 🏁Getting Started <a name = "start"></a>
 
-```
+1. **_Clone the repository_**
+```bash
 git clone https://github.com/omar214/YouTubeX.git
 ```
 
-```
+2. **_Go to the directory of the repository_**
+```bash
 cd YouTubeX
 ```
 
-to run frontend
 
-```
+3. **_to run frontend_**
+```bash
 cd Client
 npm install
 
 npm start
 ```
 
-to run backend
 
-```
+4.**_to run backend_**
+```bash
 cd Server
 npm install
 npm start
