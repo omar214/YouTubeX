@@ -1,4 +1,4 @@
-# YouTube-Clone
+# YouTubeX
 
 ![cover]()
 
@@ -13,7 +13,7 @@
 
 ### 🚩About<a name = "about"></a>
 
-  YouTube-Clone is a clone of YouTube. It is a simple, yet powerful, application that allows you to watch videos and share them with your friends. It is built using the [React](https://reactjs.org/) framework.
+  YouTubeX is a clone of YouTube. It is a simple, yet powerful, application that allows you to watch videos and share them with your friends. It is built using the [React](https://reactjs.org/) framework.
 
 it`s a full mimic of YouTube with most of its features. 
 
@@ -56,7 +56,7 @@ git clone https://github.com/omar214/YouTube-Clone.git
 ```
 
 ```
-cd YouTube-Clone
+cd YouTubeX
 ```
 
 to run frontend
