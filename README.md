@@ -52,7 +52,7 @@ it`s a full mimic of YouTube with most of its features.
 ## 🏁Getting Started <a name = "start"></a>
 
 ```
-git clone https://github.com/omar214/YouTube-Clone.git
+git clone https://github.com/omar214/YouTubeX.git
 ```
 
 ```
