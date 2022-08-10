@@ -11,7 +11,7 @@ import {
 } from "../styles/Card.styled.js";
 import moment from "moment";
 
-import userAvatar from "../assets/avatar.jpg";
+// import userAvatar from "../assets/avatar.jpg";
 import thumbnail from "../assets/thumbnail.jpg";
 
 const Card = ({ type, video }) => {
@@ -22,7 +22,8 @@ const Card = ({ type, video }) => {
         <Details type={type}>
           <ChannelImage
             type={type}
-            src={video?.userId?.img ? video?.userId?.img : userAvatar}
+            // src={video?.userId?.img ? video?.userId?.img : userAvatar}
+            src={video?.userId?.img }
           />
           <Texts>
             <Title>{video ? video.title : "Test Video"}</Title>

@@ -196,7 +196,7 @@ const Video = () => {
                   {currentVideo?.likes || 0}
                 </Button>
                 <Button onClick={handleDislike}>
-                  {currentUser.dislikedVideos.includes(currentVideo?._id) ? (
+                  {currentUser?.dislikedVideos?.includes(currentVideo?._id) ? (
                     <ThumbDownIcon />
                   ) : (
                     <ThumbDownOffAltOutlinedIcon />
@@ -207,7 +207,7 @@ const Video = () => {
                   <ReplyOutlinedIcon /> Share
                 </Button>
                 <Button onClick={handleSave}>
-                  {currentUser.savedVideos.includes(currentVideo?._id) ? (
+                  {currentUser?.savedVideos?.includes(currentVideo?._id) ? (
                     <LibraryAddIcon />
                   ) : (
                     <LibraryAddOutlinedIcon />
