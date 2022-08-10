@@ -146,6 +146,11 @@ const getSavedVideos = async (req, res, next) => {
 		let user = await User.findById(userId).populate({
 			path: 'savedVideos',
 			model: 'Video',
+			populate: {
+				path: 'userId',
+				model: 'User',
+				select: 'name img',
+			},
 		});
 		if (!user) return next(createError(404, 'user not found'));
 
