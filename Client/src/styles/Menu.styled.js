@@ -5,7 +5,8 @@ export const Container = styled.div`
   flex: 1;
   transition: 0.5s;
   background-color: ${({ theme }) => theme.bgLighter};
-  height: 100%;
+  height: 100vh;
+  /* height: 100%; */
   color: ${({ theme }) => theme.text};
   font-size: 14px;
   position: sticky;

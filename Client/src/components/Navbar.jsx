@@ -59,8 +59,8 @@ const Navbar = () => {
             onKeyDown={(e) => e.keyCode === 13 && handleSearch()}
           />
           <SearchOutlinedIcon
-            // onClick={handleSearch}
-            onClick={() => handleOpenSidebar()}
+            onClick={handleSearch}
+            // onClick={() => handleOpenSidebar()}
           />
         </Search>
         {!currentUser ? (
@@ -73,7 +73,7 @@ const Navbar = () => {
         ) : (
           <div
             style={{ display: "flex", alignItems: "center" }}
-            onClick={() => handleOpenSidebar()}
+            // onClick={() => handleOpenSidebar()}
           >
             <VideoCallOutlinedIcon
               style={{ marginRight: "10px", fontSize: "30px" }}
@@ -82,7 +82,7 @@ const Navbar = () => {
             <Button type="logOut" onClick={handleLogOut}>
               Log out
             </Button>
-            <Avatar src={currentUser.img} />
+            <Avatar onClick={() => handleOpenSidebar()} src={currentUser.img} />
             {currentUser.email}
           </div>
         )}
