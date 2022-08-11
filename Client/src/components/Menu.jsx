@@ -43,7 +43,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
           <Logo>
             <Img src={youtubeLogo} />
-            youtube-Clone
+            YouTubeX
           </Logo>
         </Link>
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
@@ -103,7 +103,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
           </>
         )}
         <Hr />
-        <Title>BEST OF youtube-Clone</Title>
+        <Title>BEST OF YouTubeX</Title>
         <Item>
           <LibraryMusicOutlinedIcon />
           Music

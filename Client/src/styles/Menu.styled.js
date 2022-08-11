@@ -39,7 +39,8 @@ export const Logo = styled.div`
   display: flex;
   align-items: center;
   gap: 5px;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 20px;
   margin-bottom: 25px;
 
   @media ${device.tablet} {
