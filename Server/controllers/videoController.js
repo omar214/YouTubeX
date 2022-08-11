@@ -223,7 +223,12 @@ const search = async (req, res, next) => {
 		console.log(query);
 		const videos = await Video.find({
 			title: { $regex: query, $options: 'i' },
-		}).limit(40);
+		}).populate({
+				path: 'userId',
+				model: 'User',
+				select: 'name img',
+			})
+			.limit(40);
 		res.status(200).json(videos);
 	} catch (error) {
 		next(error);
