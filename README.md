@@ -85,7 +85,39 @@ npm start
 
 <!-- ![GIFDemo](README/videos/Demo1.mp4) -->
 
-https://user-images.githubusercontent.com/60351557/172169848-192f95a5-a64d-481b-a82b-e647cfd268e0.mp4
+
+**Home page & Sign in & Themes**
+
+https://user-images.githubusercontent.com/60351557/184158149-7402dd75-f7b5-4d95-a355-8f5ebdf2b0e0.mp4
+
+
+**Video page & comments** `enable video sound to hear the video`
+
+
+
+https://user-images.githubusercontent.com/60351557/184158296-466f230b-b596-496a-989e-2385c3795534.mp4
+
+
+**Saved videos & subscription & history**
+
+
+https://user-images.githubusercontent.com/60351557/184158448-28d3a6f1-a7ba-40ed-98d4-cf341b5d3cbf.mp4
+
+
+**Search**
+
+
+
+https://user-images.githubusercontent.com/60351557/184158546-1b5c8e29-08e0-4454-a1c4-d7730f327a90.mp4
+
+
+
+**uploading video & thumbnails**
+
+
+
+https://user-images.githubusercontent.com/60351557/184158598-9c6b326f-ce85-41bb-9837-0510e1ba4b74.mp4
+
 
 </div>
 
