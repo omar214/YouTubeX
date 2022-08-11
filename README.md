@@ -121,30 +121,30 @@ https://user-images.githubusercontent.com/60351557/172169848-192f95a5-a64d-481b-
   <hr />
 
 - Responsive Design
-
   - sign up
+ 
     ![sign up responsive](./screenshots/8.png)
 
   <hr />
+  
   - home page
-
+ 
   ![home page responsive](./screenshots/9.png)
 
   <hr />
-
-  - video page
-    ![video page responsive](./screenshots/11.png)
+ 
+ - video page
+ 
+ ![video page responsive](./screenshots/11.png)
 
   <hr />
-
+  
   - Upload page
-    ![upload responsive](./screenshots/10.png)
+  
+  ![upload responsive](./screenshots/10.png)
 
   <hr />
-
+  
   - tablet View
-    ![history page responsive](./screenshots/12.png)
-
-```
-
-```
+  
+  ![history page responsive](./screenshots/12.png)
