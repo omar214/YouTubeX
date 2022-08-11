@@ -1,6 +1,4 @@
-# YouTubeX
-
-![cover]()
+# YouTubeX ![cover](./screenshots/logo.png)
 
 ## 📝 Table of Contents
 
@@ -13,10 +11,9 @@
 
 ### 🚩About<a name = "about"></a>
 
-  YouTubeX is a clone of YouTube. It is a simple, yet powerful, application that allows you to watch videos and share them with your friends. It is built using the [React](https://reactjs.org/) framework.
+YouTubeX is a clone of YouTube. It is a simple, yet powerful, application that allows you to watch videos and share them with your friends. It is built using the [React](https://reactjs.org/) framework.
 
-it`s a full mimic of YouTube with most of its features. 
-
+it`s a full mimic of YouTube with most of its features.
 
 ### ✨ Features <a name = "features"></a>
 
@@ -53,17 +50,19 @@ it`s a full mimic of YouTube with most of its features.
 ## 🏁Getting Started <a name = "start"></a>
 
 1. **_Clone the repository_**
+
 ```bash
 git clone https://github.com/omar214/YouTubeX.git
 ```
 
 2. **_Go to the directory of the repository_**
+
 ```bash
 cd YouTubeX
 ```
 
-
 3. **_to run frontend_**
+
 ```bash
 cd Client
 npm install
@@ -71,8 +70,8 @@ npm install
 npm start
 ```
 
-
 4.**_to run backend_**
+
 ```bash
 cd Server
 npm install
@@ -112,9 +111,9 @@ https://user-images.githubusercontent.com/60351557/172169848-192f95a5-a64d-481b-
     ![home page responsive](./screenshots/9.png)
   - video page
     ![video page responsive](./screenshots/11.png)
-  - home page
+  - Upload page
     ![upload responsive](./screenshots/10.png)
-  - history page
+  - tablet View
     ![history page responsive](./screenshots/12.png)
 
 ```
