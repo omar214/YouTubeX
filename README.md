@@ -1,4 +1,4 @@
-# YouTube-Clone
+# YouTubeX
 
 ![cover]()
 
@@ -13,7 +13,7 @@
 
 ### 🚩About<a name = "about"></a>
 
-  YouTube-Clone is a clone of YouTube. It is a simple, yet powerful, application that allows you to watch videos and share them with your friends. It is built using the [React](https://reactjs.org/) framework.
+  YouTubeX is a clone of YouTube. It is a simple, yet powerful, application that allows you to watch videos and share them with your friends. It is built using the [React](https://reactjs.org/) framework.
 
 it`s a full mimic of YouTube with most of its features. 
 
@@ -25,6 +25,7 @@ it`s a full mimic of YouTube with most of its features.
 - like / dislike videos
 - save videos to watch later
 - subscribe to channels && view their videos
+- search for video
 - Show trending videos based on the most viewed videos
 - history of videos watched by the user
 - add comments to videos && could delete them
@@ -35,6 +36,7 @@ it`s a full mimic of YouTube with most of its features.
 #### Frontend
 
 - React
+- React-Router dom
 - Redux Toolkit
 - Redux Persist
 - styled-components
@@ -50,26 +52,28 @@ it`s a full mimic of YouTube with most of its features.
 
 ## 🏁Getting Started <a name = "start"></a>
 
-```
-git clone https://github.com/omar214/YouTube-Clone.git
-```
-
-```
-cd YouTube-Clone
+1. **_Clone the repository_**
+```bash
+git clone https://github.com/omar214/YouTubeX.git
 ```
 
-to run frontend
-
+2. **_Go to the directory of the repository_**
+```bash
+cd YouTubeX
 ```
+
+
+3. **_to run frontend_**
+```bash
 cd Client
 npm install
 
 npm start
 ```
 
-to run backend
 
-```
+4.**_to run backend_**
+```bash
 cd Server
 npm install
 npm start
