@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex: 1;
   transition: 0.5s;
   background-color: ${({ theme }) => theme.bgLighter};
-  height: 100vh;
+  height: 100%;
   color: ${({ theme }) => theme.text};
   font-size: 14px;
   position: sticky;
@@ -43,9 +43,9 @@ export const Logo = styled.div`
   margin-bottom: 25px;
 
   @media ${device.tablet} {
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 30px;
+    left: 30px; */
   }
 `;
 
