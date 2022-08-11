@@ -93,26 +93,55 @@ https://user-images.githubusercontent.com/60351557/172169848-192f95a5-a64d-481b-
 
 - Sign up
   ![Sign up](./screenshots/1.png)
+  <hr />
 - Home page
   ![Home page](./screenshots/2.png)
+
+  <hr />
+
 - Light Theme
   ![Light Theme](./screenshots/3.png)
   ![Light Theme](./screenshots/31.png)
+
+  <hr />
+
 - Video Page
   ![Video page](./screenshots/5.png)
+
+  <hr />
+
 - Comments
   ![Comments](./screenshots/6.png)
+
+  <hr />
+
 - upload video
   ![upload video](./screenshots/7.png)
+
+  <hr />
+
 - Responsive Design
+
   - sign up
     ![sign up responsive](./screenshots/8.png)
+
+  <hr />
   - home page
-    ![home page responsive](./screenshots/9.png)
+
+  ![home page responsive](./screenshots/9.png)
+
+  <hr />
+
   - video page
     ![video page responsive](./screenshots/11.png)
+
+  <hr />
+
   - Upload page
     ![upload responsive](./screenshots/10.png)
+
+  <hr />
+
   - tablet View
     ![history page responsive](./screenshots/12.png)
 
