@@ -1,4 +1,4 @@
-# YouTubeX ![cover](./screenshots/logo.png)
+# YouTubeX ![cover](./screenshots/logo.png) 
 
 ## 📝 Table of Contents
 
